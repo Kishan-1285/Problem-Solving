@@ -17,6 +17,7 @@ public class fibonacii {
             a = b;
             b = next;
         }
+        System.out.println();
         sc.close();
     }
 }
