@@ -7,6 +7,12 @@ public class fibonacii {
         System.out.print("Enter number of terms: ");
         int n = sc.nextInt();
 
+        if (n < 0) {
+            System.out.println("Number of terms cannot be negative.");
+            sc.close();
+            return;
+        }
+
         int a = 0;
         int b = 1;
 
