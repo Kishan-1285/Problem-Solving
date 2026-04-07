@@ -13,6 +13,11 @@ public class fibonacii {
             return;
         }
 
+        printFibonacci(n);
+        sc.close();
+    }
+
+    private static void printFibonacci(int n) {
         int a = 0;
         int b = 1;
 
@@ -24,6 +29,5 @@ public class fibonacii {
             b = next;
         }
         System.out.println();
-        sc.close();
     }
 }
