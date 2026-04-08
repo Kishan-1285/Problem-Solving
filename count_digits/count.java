@@ -1,3 +1,5 @@
+package count_digits;
+
 import java.util.Scanner;
 class count {
     public static void main(String[] args) {
@@ -9,5 +11,6 @@ class count {
             a=a/10;
         }
         System.out.println(count);
+        sc.close();
     }
 }
