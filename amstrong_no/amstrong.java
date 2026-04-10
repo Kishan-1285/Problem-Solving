@@ -13,11 +13,15 @@ public class amstrong {
         int original = n;
         int digits = countDigits(n);
         int sum = 0;
+
+        // Add each digit raised to the total number of digits.
         while(n>0){
             int digit = n%10;
             sum +=Math.pow(digit,digits);
             n=n/10;
         }
+
+        // Armstrong number: sum of powered digits equals the original number.
         return sum==original;
     }
     public static void main(String[] args) {
