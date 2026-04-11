@@ -26,11 +26,14 @@ public class amstrong {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
         int n = sc.nextInt();
+
         if(isAmstrong(n)){
-             System.out.println("it is amstrong number");
+             System.out.println("It is an Armstrong number");
         }else{
-            System.out.print("not amstrng");
+            System.out.print("Not an Armstrong number");
         }
         sc.close();
     }
