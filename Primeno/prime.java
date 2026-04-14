@@ -22,6 +22,12 @@ public class prime{
 
         int n = sc.nextInt();
 
+        if(n < 0) {
+            System.out.println("Negative numbers are not prime");
+            sc.close();
+            return;
+        }
+
         if(isPrime(n)) {
             System.out.println("Prime Number");
         } else {
