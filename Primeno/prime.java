@@ -21,6 +21,7 @@ public class prime {
 
         Scanner sc = new Scanner(System.in);
 
+        // Read one number and report whether it is prime.
         System.out.print("Enter number: ");
 
         int n = sc.nextInt();
@@ -32,9 +33,9 @@ public class prime {
         }
 
         if(isPrime(n)) {
-            System.out.println("Prime Number");
+            System.out.println("Prime number");
         } else {
-            System.out.println("Not Prime Number");
+            System.out.println("Not a prime number");
         }
        
         sc.close();
