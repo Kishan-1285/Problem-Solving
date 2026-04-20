@@ -6,6 +6,7 @@ public class gcd_no{
 
     public static int gcd(int a, int b) {
 
+        // Euclidean algorithm: replace the larger problem with the remainder.
         while(b != 0) {
 
             int temp = b;
