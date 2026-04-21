@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class gcd_no{
 
     public static int gcd(int a, int b) {
+        a = Math.abs(a);
+        b = Math.abs(b);
 
         // Euclidean algorithm: replace the larger problem with the remainder.
         while(b != 0) {
