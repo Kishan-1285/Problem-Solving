@@ -20,5 +20,6 @@ public class lcm_no{
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
         System.out.println("LCM = " + lcm(a, b));
+        sc.close();
     }
 }
