@@ -2,8 +2,8 @@ package HighestFreq;
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 import java.util.*;
-class Main {
-    public static void highFreq(String[] args) {
+class highFreq {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
@@ -23,14 +23,14 @@ class Main {
         }
         int highFreq = 0;
         int answer = 0;
-        for(int i=0;i<n;i++){
-            if(map.get(arr[i])>0){
-                highFreq = map.get(arr[i]);
-                answer = arr[i];
-            }
-        }
         for(Integer key : map.keySet()){
             System.out.println(key +"--->"+ map.get(key));
+        }
+        for(int i=0;i<n;i++){
+            if(map.get(arr[i])>0){
+                highFreq = arr[i];
+                answer = map.get(arr[i]);
+            }
         }
         System.out.println(highFreq);
         System.out.println(answer);
