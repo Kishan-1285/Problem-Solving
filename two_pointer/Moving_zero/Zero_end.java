@@ -4,11 +4,9 @@ import java.util.*;
 
 class Main {
     public static void main(String[] args) {
-        int []arr = {1,2,0,0,4,3,0};
-        
+        int []arr = {1,2,0,0,4,3,0};       
         int slow = 0;
         int fast = 0;
-        
         while(fast<arr.length){
             if(arr[fast]!=0&&arr[slow]!=0){
                 fast++;
