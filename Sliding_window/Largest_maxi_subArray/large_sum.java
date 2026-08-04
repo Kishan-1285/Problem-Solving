@@ -11,7 +11,7 @@ class Main {
         int largest = windowSum;
         // System.out.println(windowSum);
         for(int i=0;i+k<arr.length;i++){
-            windowSum = windowSum - arr[i] + arr[i+k];
+            windowSum = windowSum - arr[i] + arr[k];
             if(windowSum>largest){
                 largest = windowSum;
            }
