@@ -1,4 +1,3 @@
-package Sliding_window.Maximum_Average_Subarray_I;
 class Max_Avg {
     public static void main(String[] args) {
         int [] arr = {2,2,2,2,5,5,5,8};

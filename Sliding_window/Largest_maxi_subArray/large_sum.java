@@ -1,4 +1,4 @@
-package Sliding_window.Largest_maxi_subArray;
+package Largest_maxi_subArray;
 
 class Main {
     public static void main(String[] args) {

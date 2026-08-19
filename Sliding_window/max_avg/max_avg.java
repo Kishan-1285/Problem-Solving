@@ -1,5 +1,5 @@
 
-package Sliding_window.max_avg;
+package max_avg;
 
 public class max_avg {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Sliding_window.Maxi;
+package Maxi;
 
 class Max_Sum_Size_k {
     static int maxSumSizeK(int[] arr, int k) {
