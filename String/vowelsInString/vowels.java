@@ -13,5 +13,7 @@ class vowels {
             }
         }
         System.out.println(count);
+
+        
     }
 }
